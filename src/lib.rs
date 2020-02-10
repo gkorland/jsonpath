@@ -137,7 +137,9 @@ pub use select::JsonPathError;
 pub use select::{Selector, SelectorMut};
 
 #[doc(hidden)]
-pub mod parser;
+mod ffi;
+#[doc(hidden)]
+mod parser;
 #[doc(hidden)]
 mod select;
 

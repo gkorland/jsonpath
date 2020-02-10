@@ -129,4 +129,3 @@ fn selector_remove() {
         ]
     );
 }
-
